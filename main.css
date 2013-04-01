@@ -1,0 +1,245 @@
+body{
+	width:100%;
+	margin:0;
+	background-color:#FBEFF2;
+	
+	}
+
+nav#top-menu{
+			width: 100%;
+			height: 33px;
+			background-color:black;
+			margin: 0;
+			padding: 0;
+		}
+		
+	nav#top-menu ul {
+		display:block;
+		width:500px;
+		list-style-type: none;
+		padding: 0;
+		margin:0 auto;
+}
+
+nav#top-menu ul li {
+    margin: 0;
+    padding: 0;
+}
+nav#top-menu ul li a{
+    display: block;
+    float: left;
+    max-height: 20px;
+    width: 100px;
+    margin: 0;
+    padding: 5px 0;
+    font-family: tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color:black;
+    text-decoration: none;
+    color: white;
+    border-bottom: black solid 2px;
+}
+nav#top-menu ul li a:hover { border-bottom: white solid 2px; }
+
+div#heading
+{	
+	width:960px;
+	height:100px;
+    margin: auto;
+    font-family: tahoma, sans-serif;
+    background-color: #FBEFF2;
+
+ }
+ div#heading image{
+
+float:left;
+}
+ div#heading p{
+	float:right;
+	margin-left:2px;
+	color:#642EFE;
+	font-family:'Gabriela', serif;
+	font-size:28px;
+
+}
+div#heading button{
+ 	float:right;
+	margin-left:40px;
+	width:200px;
+	height:58px;
+	background-color:#C11B17;
+	border-radius:9px;
+	color:rgb(100%,100%,100%);
+	font-family:Myriad Pro;
+	font-size:24px;
+	margin-top:12px;
+	margin-right:0px;
+	
+	} 
+	nav#main-menu ul {
+    
+    list-style-type: none;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+	
+	}
+nav#main-menu ul li {
+    margin: 0 auto;
+	background-color:#C11B17;
+	width:120px;
+	height:30px;
+	float:left;
+	text-align:center;
+	padding:5px 0px 0px 0px;
+	}
+nav#main-menu ul li a{
+    text-align:center;
+	margin:2px;
+	padding:0;
+	text-decoration:none;
+	font-family: tahoma, sans-serif;
+    font-size: 16px;
+    color:white;
+		
+}
+nav#main-menu ul li a:hover { border-bottom: #F5A9A9 solid 2px; }		
+.main{
+		width:960px;
+		height:517px;
+		margin:50px auto;
+		
+	}
+	aside.about {
+    float: right;
+	width: 370px;
+	height:	480px;
+	margin:0px auto;
+    background-color:#FBFBEF;
+   	border-radius:10px;
+	margin-bottom:0px;
+}
+aside header{
+	padding:0 ;
+	border:#D8D8D8 solid 1px;
+	background-color:#D8D8D8;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	}
+aside header h1{
+	font-family:tahoma, sans-serif;
+	text-align:center;
+	font-size:16px;
+	color:#585858;
+	
+	}
+
+aside footer h1{
+	font-family:tahoma, sans-serif;
+	text-align:center;
+	font-size:16px;
+	color:#585858;
+	}
+aside footer{
+	margin-top:0px;
+	border:#D8D8D8 solid 1px;
+	background-color:#D8D8D8;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+}
+aside section{
+	border:#D8D8D8 solid 1px;
+	border-width:1px 0px 2px 1px;
+	margin-bottom:0px;
+	}
+aside section p{
+	font-size:14px;
+	color:#F78181;
+	font-family:tahoma, sans-serif;
+	padding:0px 5px 0px 5px;
+	}
+.list{
+		margin:-40px auto;
+		width:960px;
+		font-family: tahoma, sans-serif;
+		background-color: #FAFAFA;
+		
+	}
+
+
+.list section button{
+	display:inline-block;
+	float:left;
+	width:150px;
+	height:30px;
+	margin-top:15px;
+	margin-left:5px;
+	margin-right:2px;
+	background-color:#D8D8D8;
+	border-radius:9px;
+	color:#2E2E2E;
+	font-family: tahoma, sans-serif;
+	font-size:16px;
+	
+	}
+
+#announce{
+	display:inline-block;
+	margin-left:0px;
+	width:390px;
+	
+	}		
+#announce header {
+	
+	margin-left:5px;
+	margin-top:5px;
+	border-radius:5px;
+	background-color:#FBFBEF;
+	border:#D8D8D8 solid 2px;
+
+	}
+#announce header h1{
+	font-family: tahoma, sans-serif;
+	font-size: 16px;
+	color:#FA5858;
+	padding:5px 5px 5px 5px;
+	text-align:center;
+	}
+.list section p{
+	margin-left:10px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:5px 5px 5px 5px;
+	border-radius:5px;
+	color:#A4A4A4;
+	background-color:#FBFBEF;
+	border:#D8D8D8 solid 1px;
+	}
+	
+	#pic{
+	display:inline-block;
+	width:260px;
+	margin-left:50px;
+	}
+.images{
+	width:125px;
+	height:125px;
+	margin:25px 1px 0px 1px;
+	}
+
+	footer {
+	margin-top:45px;
+	clear:both;
+    background: #0B3861;
+}
+
+footer p {
+    color:white;
+    font-size:14px;
+    font-family: tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+

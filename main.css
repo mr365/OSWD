@@ -1,14 +1,14 @@
 body{
 	width:100%;
 	margin:0;
-	background-color:#FBEFF2;
+	background-color:#ECF1EF;
 	
 	}
 
 nav#top-menu{
 			width: 100%;
 			height: 33px;
-			background-color:black;
+			background-color:#0B3861;
 			margin: 0;
 			padding: 0;
 		}
@@ -35,12 +35,12 @@ nav#top-menu ul li a{
     font-family: tahoma, sans-serif;
     font-size: 20px;
     text-align: center;
-    background-color:black;
+    background-color:#0B3861;
     text-decoration: none;
-    color: white;
-    border-bottom: black solid 2px;
+    color: #A3C1AD;
+    border-bottom: #0B3861 solid 2px;
 }
-nav#top-menu ul li a:hover { border-bottom: white solid 2px; }
+nav#top-menu ul li a:hover { border-bottom: #A3C1AD solid 2px; }
 
 div#heading
 {	
@@ -48,7 +48,7 @@ div#heading
 	height:100px;
     margin: auto;
     font-family: tahoma, sans-serif;
-    background-color: #FBEFF2;
+    background-color: #ECF1EF;
 
  }
  div#heading image{
@@ -58,7 +58,7 @@ float:left;
  div#heading p{
 	float:right;
 	margin-left:2px;
-	color:#642EFE;
+	color:#0B3861;
 	font-family:'Gabriela', serif;
 	font-size:28px;
 
@@ -68,7 +68,7 @@ div#heading button{
 	margin-left:40px;
 	width:200px;
 	height:58px;
-	background-color:#C11B17;
+	background-color:#0B3861;
 	border-radius:9px;
 	color:rgb(100%,100%,100%);
 	font-family:Myriad Pro;
@@ -86,13 +86,15 @@ div#heading button{
 	
 	}
 nav#main-menu ul li {
-    margin: 0 auto;
-	background-color:#C11B17;
-	width:120px;
+    margin: 0 1px 0 1px;
+	background-color:#0B3861;
+	width:118px;
 	height:30px;
 	float:left;
 	text-align:center;
 	padding:5px 0px 0px 0px;
+	border:1px;
+	border-radius:5px;
 	}
 nav#main-menu ul li a{
     text-align:center;
@@ -104,7 +106,7 @@ nav#main-menu ul li a{
     color:white;
 		
 }
-nav#main-menu ul li a:hover { border-bottom: #F5A9A9 solid 2px; }		
+nav#main-menu ul li a:hover { border-bottom: white solid 2px; }		
 .main{
 		width:960px;
 		height:517px;
@@ -116,14 +118,14 @@ nav#main-menu ul li a:hover { border-bottom: #F5A9A9 solid 2px; }
 	width: 370px;
 	height:	480px;
 	margin:0px auto;
-    background-color:#FBFBEF;
+    background-color:#E6E6FA;
    	border-radius:10px;
 	margin-bottom:0px;
 }
 aside header{
 	padding:0 ;
 	border:#D8D8D8 solid 1px;
-	background-color:#D8D8D8;
+	background-color:#0B3861;
 	border-top-right-radius:10px;
 	border-top-left-radius:10px;
 	}
@@ -131,7 +133,7 @@ aside header h1{
 	font-family:tahoma, sans-serif;
 	text-align:center;
 	font-size:16px;
-	color:#585858;
+	color:white;
 	
 	}
 
@@ -139,23 +141,24 @@ aside footer h1{
 	font-family:tahoma, sans-serif;
 	text-align:center;
 	font-size:16px;
-	color:#585858;
+	color:white;
 	}
 aside footer{
 	margin-top:0px;
-	border:#D8D8D8 solid 1px;
-	background-color:#D8D8D8;
+	border:#0B3861 solid 1px;
+	background-color:#0B3861;
 	border-bottom-right-radius:10px;
 	border-bottom-left-radius:10px;
 }
 aside section{
-	border:#D8D8D8 solid 1px;
-	border-width:1px 0px 2px 1px;
+	border:#ADD8E6 solid 1px;
+	border-width:1px 0px 1px 0px;
 	margin-bottom:0px;
+	margin-top:1px;
 	}
 aside section p{
 	font-size:14px;
-	color:#F78181;
+	color:#585858;
 	font-family:tahoma, sans-serif;
 	padding:0px 5px 0px 5px;
 	}
@@ -163,7 +166,7 @@ aside section p{
 		margin:-40px auto;
 		width:960px;
 		font-family: tahoma, sans-serif;
-		background-color: #FAFAFA;
+		background-color: #ECF1EF;
 		
 	}
 
@@ -172,13 +175,13 @@ aside section p{
 	display:inline-block;
 	float:left;
 	width:150px;
-	height:30px;
-	margin-top:15px;
+	height:50px;
+	margin-top:10px;
 	margin-left:5px;
 	margin-right:2px;
-	background-color:#D8D8D8;
+	background-color:#0B3861;
 	border-radius:9px;
-	color:#2E2E2E;
+	color:white;
 	font-family: tahoma, sans-serif;
 	font-size:16px;
 	
@@ -187,7 +190,7 @@ aside section p{
 #announce{
 	display:inline-block;
 	margin-left:0px;
-	width:390px;
+	width:422px;
 	
 	}		
 #announce header {
@@ -195,14 +198,14 @@ aside section p{
 	margin-left:5px;
 	margin-top:5px;
 	border-radius:5px;
-	background-color:#FBFBEF;
-	border:#D8D8D8 solid 2px;
+	background-color:#0B3861;
+	border:#0B3861 solid 2px;
 
 	}
 #announce header h1{
 	font-family: tahoma, sans-serif;
 	font-size: 16px;
-	color:#FA5858;
+	color:white;
 	padding:5px 5px 5px 5px;
 	text-align:center;
 	}
@@ -210,11 +213,11 @@ aside section p{
 	margin-left:10px;
 	margin-top:0px;
 	margin-bottom:0px;
-	padding:5px 5px 5px 5px;
+	padding:3px 3px 3px 3px;
 	border-radius:5px;
-	color:#A4A4A4;
-	background-color:#FBFBEF;
-	border:#D8D8D8 solid 1px;
+	color:#585858;
+	background-color:#E6E6FA;
+	border:#ADD8E6 solid 1px;
 	}
 	
 	#pic{
